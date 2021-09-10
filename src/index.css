@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: rgb(221, 174, 238);
+  background: radial-gradient(circle, rgba(207, 174, 238, 0.3) 0%, rgba(148, 187, 233, 0.3) 100%);
+  min-height: 100vh;
+}
+a {
+  /*purple-500*/
+  color: #8b5cf6;
+  text-decoration: underline;
+  background-color: transparent;
+}
